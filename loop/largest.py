@@ -27,6 +27,10 @@
       
       
 # list=int(input("Enter the list:"))  
+
+
+
+
 a=int(input("enter the no. of elements"))
 b=[]
 for i in range(a):
