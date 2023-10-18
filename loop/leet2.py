@@ -7,9 +7,8 @@ while(v>0):
     v=v//10
 if(a==reverse):
     
-    
-    
-    print("Given number is palindrome :")
+    print(a,"is palindrome")
 else:
-       print("Given number is not palindrome :")
+       print(a,"is not palindrome")
     
+  
