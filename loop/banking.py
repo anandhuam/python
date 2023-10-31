@@ -9,8 +9,8 @@ while choice=='x' :
 3)add balance
 4)withdraw
 5)quit
-           ''')
-     option=int(input("Enter your choice:-"))
+      ''')
+     option=(input("Enter your choice:-"))
      if option==1:
          name=input("Enter customer name:")
          age=input("Enter customer age:")
@@ -29,12 +29,7 @@ while choice=='x' :
      elif option==3:
           accont=input("Enter customer account no:")
           a=input("Enter the amount to add")
-          print(new_customer[balance]+a)
-          
-          
-          
-          
-          
+       
      elif option==4:
           print()
           
